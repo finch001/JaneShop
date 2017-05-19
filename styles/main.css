@@ -131,7 +131,7 @@
     width: 165px;
 }
 
-.jnCatainfo h3{
+.jnCatainfo h3 {
     border-bottom: 1px solid #EEEEEE;
     height: 24px;
     line-height: 24px;
@@ -150,5 +150,44 @@
 
 .jnCatainfo li a {
     color: #444444;
+}
 
+/* 大屏广告 */
+#jnImageroll {
+    float: left;
+    height: 320px;
+    margin: 0 11px 0 0;
+    overflow: hidden;
+    position: relative;
+    width: 550px;
+}
+
+#jnNoticeInfo {
+    float: left;
+    border: 1px solid #DFDFDF;
+    height: 140px;
+    overflow: hidden;
+    width: 228px;
+}
+
+#jnNoticeInfo h2 {
+    height: 23px;
+    line-height: 23px;
+    border-bottom: 1px solid #DFDFDF;
+    text-indent: 12px;
+}
+
+#jnNoticeInfo ul {
+    float: left;
+    padding: 6px 2px 0 12px;
+}
+
+#jnNoticeInfo li {
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+}
+
+#jnNoticeInfo li a {
+    color: #666;
 }
