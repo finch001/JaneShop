@@ -1,0 +1,433 @@
+#footer {
+    margin: 0 auto;
+    width: 990px;
+    color: #666666;
+    padding: 18px 0;
+    text-align: center;
+}
+
+#header {
+    background: url("../image/headerbg.png") repeat-x scroll 0 0 #FFFFFF;
+    height: 105px;
+}
+
+#header .contWidth {
+    position: relative;
+    height: 105px;
+    margin: 0 auto;
+    width: 990px;
+    z-index: 100;
+}
+
+#header .logo {
+    float: left;
+    margin: 0 0 0 10px;
+    color: #FFF;
+    line-height: 80px;
+}
+
+#header .search {
+    left: 198px;
+    position: absolute;
+    top: 20px;
+}
+
+#inputSearch {
+    border: 1px solid #BABEBF;
+    color: #999999;
+    font-size: 14px;
+    height: 17px;
+    padding: 3px 6px 5px 6px;
+    width: 200px;
+}
+
+#skin {
+    float: right;
+    margin: 10px;
+    padding: 4px;
+    width: 120px;
+}
+
+#skin li {
+    float: left;
+    margin-right: 4px;
+    width: 15px;
+    height: 15px;
+    overflow: hidden;
+    display: block;
+    cursor: pointer;
+    background-image: url("../image/theme.gif");
+}
+
+.mainNav {
+    position: absolute;
+    top: 68px;
+    left: 0;
+    height: 37px;
+    line-height: 37px;
+    width: 990px;
+    z-index: 100;
+    background-color: #4A4A4A;
+}
+
+.mainNav .nav {
+    display: inline;
+    float: left;
+    margin-left: 25px;
+}
+
+.mainNav ul li {
+    float: left;
+    display: inline;
+    margin-right: 14px;
+    position: relative;
+    z-index: 100;
+}
+
+.mainNav ul li a {
+    display: block;
+    padding: 0 8px;
+    font-weight: 700;
+    color: #fff;
+    font-size: 14px;
+}
+
+.mainNav ul li a:hover {
+    background: none;
+}
+
+/* 二级菜单 */
+.jnNav {
+    background: #FFFFFF;
+    border: 1px solid #B1B1B1;
+    border-top: 0;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 37px;
+    width: 474px;
+    z-index: 1000;
+    display: none;
+}
+
+.jnNav .subitem {
+    float: left;
+    height: auto;
+    min-height: 100px;
+    padding: 10px 12px;
+    width: 450px;
+}
+
+.jnNav .subitem dl {
+    border-top: 1px dashed #C4C4C4;
+    overflow: hidden;
+    padding: 8px 0;
+    float: left;
+}
+
+.jnNav .subitem dt {
+    float: left;
+    font-weight: bold;
+    line-height: 16px;
+    padding: 4px 3px;
+    text-align: center;
+    width: 76px;
+}
+
+.jnNav .subitem dt a {
+    color: #000;
+    font-weight: 700;
+    font-size: 12px;
+    padding: 0;
+}
+
+.jnNav .subitem dd {
+    float: left;
+    overflow: hidden;
+    padding: 0;
+    width: 364px;
+}
+
+.jnNav .subitem em {
+    border-right: 1px solid #CCCCCC;
+    float: left;
+    font-style: normal;
+    height: 14px;
+    line-height: 14px;
+    margin: 5px 0;
+    padding: 0 8px;
+}
+
+.jnNav .subitem em a {
+    color: #666666;
+    white-space: nowrap;
+    font-size: 12px;
+    font-weight: normal;
+    padding: 0;
+}
+
+#content {
+    margin: 0 auto;
+    position: relative;
+    width: 990px;
+}
+
+.janeshop {
+    height: 560px;
+    overflow: hidden;
+    padding: 10px 0;
+}
+
+#jnCatalog {
+    float: left;
+    height: 560px;
+    margin: 0 11px 0 0;
+    overflow: hidden;
+    width: 187px;
+}
+
+#jnCatalog h2 {
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+    font-size: 12px;
+    text-indent: 13px;
+    background-color: #6E6E6E;
+}
+
+.jnCatainfo {
+    border: 1px solid #6E6E6E;
+    border-style: none solid solid;
+    border-width: 0 1px 1px;
+    height: 524px;
+    overflow: hidden;
+    padding: 5px 10px 0;
+    width: 165px;
+}
+
+.jnCatainfo h3 {
+    border-bottom: 1px solid #EEEEEE;
+    height: 24px;
+    line-height: 24px;
+    width: 164px;
+}
+
+.jnCatainfo ul {
+    float: left;
+    padding: 0 2px 8px;
+}
+
+.jnCatainfo li {
+    color: #AEADAE;
+    float: left;
+    height: 24px;
+    line-height: 24px;
+    width: 79px;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.jnCatainfo li a {
+    color: #444444;
+}
+
+/* 大屏广告 */
+#jnImageroll {
+    float: left;
+    height: 320px;
+    margin: 0 11px 0 0;
+    overflow: hidden;
+    position: relative;
+    width: 550px;
+}
+
+#jnNotice {
+    float: left;
+    height: 321px;
+    overflow: hidden;
+    width: 230px;
+}
+
+#jnNoticeInfo {
+    float: left;
+    border: 1px solid #DFDFDF;
+    height: 133px;
+    overflow: hidden;
+    width: 228px;
+}
+
+#jnMiaosha {
+    float: left;
+    height: 176px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    width: 230px;
+}
+
+#jnNoticeInfo h2 {
+    height: 23px;
+    line-height: 23px;
+    border-bottom: 1px solid #DFDFDF;
+    text-indent: 12px;
+}
+
+#jnNoticeInfo ul {
+    float: left;
+    padding: 6px 2px 0 12px;
+}
+
+#jnNoticeInfo li {
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+}
+
+#jnNoticeInfo li a {
+    color: #666;
+}
+
+#jnImageroll div {
+    bottom: 0;
+    overflow: hidden;
+    position: absolute;
+    float: left;
+}
+
+#jnImageroll div a {
+    background-color: #444444;
+    color: #FFFFFF;
+    display: inline-block;
+    float: left;
+    height: 32px;
+    margin-right: 1px;
+    overflow: hidden;
+    padding: 5px 15px;
+    text-align: center;
+    width: 79px;
+}
+
+#jnImageroll div a em {
+    cursor: pointer;
+    display: block;
+    height: 16px;
+    overflow: hidden;
+    width: 79px;
+}
+
+#jnImageroll div a:hover {
+    text-decoration: none;
+}
+
+#jnBrand {
+    float: left;
+    height: 230px;
+    margin: 10px 0 0;
+    overflow: hidden;
+    width: 790px;
+}
+
+#jnBrandTab {
+    border-bottom: 1px solid #E4E4E4;
+    height: 29px;
+    position: relative;
+    width: 790px;
+    float: left;
+}
+
+#jnBrandTab ul {
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+
+#jnBrandTab h2 {
+    height: 29px;
+    line-height: 29px;
+    left: 0;
+    position: absolute;
+    width: 100px;
+}
+
+#jnBrandTab li {
+    float: left;
+    margin: 0 10px 0 0;
+}
+
+#jnBrandTab li a {
+    background-color: #E4E4E4;
+    color: #000000;
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;
+    padding: 0 10px;
+}
+
+#jnBrandContent {
+    float: left;
+    height: 188px;
+    overflow: hidden;
+    margin: 8px 5px;
+    width: 790px;
+    position: relative;
+}
+
+#jnBrandList {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 3200px;
+}
+
+#jnBrandList li {
+    float: left;
+    height: 188px;
+    overflow: hidden;
+    padding: 0 5px;
+    position: relative;
+    width: 185px;
+}
+
+#jnBrandList li img {
+    left: 5px;
+    position: absolute;
+    top: 0;
+}
+
+#jnBrandList li span {
+    background-color: #EFEFEF;
+    bottom: 0;
+    position: absolute;
+    color: #666666;
+    display: inline-block;
+    font-size: 14px;
+    height: 24px;
+    line-height: 24px;
+    overflow: hidden;
+    text-align: center;
+    width: 183px;
+}
+
+#jnBrandList li a {
+    color: #666666;
+}
+
+#jnBrandList li a:hover {
+    color: #008CD7;
+    text-decoration: none;
+}
+
+/* tooltip */
+#tooltip {
+    position: absolute;
+    border: 1px solid #333;
+    background: #f7f5d1;
+    padding: 1px;
+    color: #333;
+    display: none;
+}
+
+#jnImageroll a.chos {
+    background: url("../../image/adindex.gif") no-repeat center 39px #37A7D7;
+    padding-bottom: 3px;
+}
